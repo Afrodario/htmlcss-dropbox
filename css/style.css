@@ -22,6 +22,21 @@
     border: 1px solid black;
 }
 
+.button {
+    border: 1px solid black;
+    padding: 3px 15px;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #0061ff;
+}
+
+#start-btn {
+    color: white;
+    font-size: 12px;
+}
+
 /* Clearfix */
 .row::after {
     content: "";
@@ -48,8 +63,9 @@ nav ul li a {
 }
 
 /* Regole header */
-header {
-    background-color: red;
+.head-row {
+    height: 50px;
+    line-height: 50px;
 }
 
 #logo, .nav-left {
@@ -58,6 +74,33 @@ header {
 
 .nav-right {
     float: right;
+}
+
+#logo img {
+    vertical-align: middle;
+}
+
+/* Regole navbar dell'header */
+.nav-left ul {
+    margin-left: 20px;
+}
+
+.nav-left ul li a {
+    margin: 0 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-left ul {
+    margin-left: 20px;
+}
+
+.nav-right ul li a {
+    margin: 0 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* Regole jumbotron */
