@@ -4,3 +4,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkcyan;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.container-banner {
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkcyan;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* Debug */
+.debug {
+    border: 1px solid black;
+}
+
+/* Regole header */
+header {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+/* Regole jumbotron */
+.jumbotron {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 500px;
+}
+
+/* Regole sezione pagamenti */
+.payment {
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 800px;
+}
+
+/* Regole sezione partner */
+.partner {
+    background-color: pink;
+    width: 100%;
+    height: 300px;
+}
+
+/* Regole sezione business */
+.business {
+    background-color: purple;
+    width: 100%;
+    height: 500px;
+}
+
+/* Regole sezione banner */
+.banner {
+    background-color: seagreen;
+    width: 100%;
+    height: 700px;
+}
+
+/* Regole sezione faq */
+.faq {
+    background-color: yellow;
+    width: 100%;
+    height: 400px;
+}
+
+/* Regole footer */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+} 
