@@ -68,7 +68,7 @@ nav ul li {
     line-height: 50px;
 }
 
-#logo, .nav-left {
+.nav-left {
     float: left;
 }
 
@@ -76,7 +76,7 @@ nav ul li {
     float: right;
 }
 
-#logo img {
+#logo {
     vertical-align: middle;
 }
 
@@ -119,19 +119,24 @@ nav ul li {
 }
 
 .jumbo-description {
-    width: 30%;
+    width: 40%;
     border: 1px solid black;
-    display: inline-block;
+    padding-left: 20px;
+    float: left;
+}
+
+.jumbo-description p {
+    padding: 40px 20px;
 }
 
 .jumbo-img {
-    width: 70%;
-    display: inline-block;
+    width: 50%;
     border: 1px solid black;
+    float: left;
 }
 
 #jumbo-img {
-    max-width: 60%;
+    height: 400px;
 }
 
 /* Regole sezione pagamenti */
