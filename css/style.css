@@ -246,6 +246,23 @@ ul {
     height: 500px;
 }
 
+.col2 {
+    width: calc(100%/3 - 10px);
+    border: 1px solid black;
+    float: left;
+}
+
+.col-cen {
+    margin: 0 15px;
+}
+
+.bus-card img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 /* Regole sezione banner */
 .banner {
     background-color: seagreen;
