@@ -177,6 +177,15 @@ ul {
     max-width: 20%;
 }
 
+.col-pay-head {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.upper-col, .lower-col {
+    padding: 0 5%;
+}
+
 /* Regole sezione partner */
 .partner {
     background-color: pink;
