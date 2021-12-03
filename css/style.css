@@ -9,7 +9,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    background-color: darkcyan;
+    background-color: white;
     height: 100%;
     border: 1px solid black;
 }
@@ -130,13 +130,14 @@ nav ul li {
 }
 
 .jumbo-img {
-    width: 50%;
+    width: 60%;
     border: 1px solid black;
     float: left;
 }
 
 #jumbo-img {
-    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Regole sezione pagamenti */
@@ -144,6 +145,26 @@ nav ul li {
     background-color: darkgoldenrod;
     width: 100%;
     height: 800px;
+}
+
+.radio {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    }
+
+#radio-blue {
+    border: 3px solid #0061ff;
+}
+
+/* Regole tabella pagamenti */
+.col {
+    width: 30%;
+    border: 1px solid gray;
+    height: 200px;
+    float: left;
 }
 
 /* Regole sezione partner */
