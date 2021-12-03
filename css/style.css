@@ -28,12 +28,17 @@ a {
 
 .button {
     border: 1px solid black;
-    padding: 3px 15px;
+    padding: 6px;
 }
 
 .btn-blue {
     color: white;
     background-color: #0061ff;
+}
+
+.pay-btn {
+    border: 1px solid black;
+    padding: 6px 25px;
 }
 
 #start-btn {
@@ -49,12 +54,13 @@ a {
 }
 
 /* Regole delle navbar */
-nav ul {
-    list-style-type: none;
-}
-
 nav ul li {
     display: inline-block;
+}
+
+/* Regole delle liste */
+ul {
+    list-style-type: none;
 }
 
 /* Debug */
@@ -163,8 +169,12 @@ nav ul li {
 .col {
     width: 30%;
     border: 1px solid gray;
-    height: 200px;
     float: left;
+}
+
+.col-break {
+    border-bottom: 1px solid gray;
+    max-width: 20%;
 }
 
 /* Regole sezione partner */
