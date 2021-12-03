@@ -36,6 +36,12 @@ a {
     background-color: #0061ff;
 }
 
+.btn-clear {
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
 .pay-btn {
     border: 1px solid black;
     padding: 6px 25px;
@@ -147,11 +153,12 @@ ul {
 }
 
 /* Regole sezione pagamenti */
-.payment {
+
+/* .payment {
     background-color: darkgoldenrod;
     width: 100%;
     height: 800px;
-}
+} */
 
 .radio {
     display: inline-block;
@@ -213,10 +220,23 @@ ul {
 }
 
 /* Regole sezione partner */
-.partner {
+
+/* .partner {
     background-color: pink;
     width: 100%;
     height: 300px;
+} */
+
+#partner {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.partner-img, .partner-text {
+    width: 50%;
+    border: 1px solid black;
+    float: left;
 }
 
 /* Regole sezione business */
