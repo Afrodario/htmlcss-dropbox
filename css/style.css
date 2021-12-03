@@ -167,9 +167,13 @@ ul {
 
 /* Regole tabella pagamenti */
 .col {
-    width: 30%;
+    width: calc(100%/3 - 10px);
     border: 1px solid gray;
     float: left;
+}
+
+.col-cen {
+    margin: 0 15px;
 }
 
 .col-break {
@@ -184,6 +188,28 @@ ul {
 
 .upper-col, .lower-col {
     padding: 0 5%;
+}
+
+/* Regole sezione enterprise */
+.enterprise-text, .enterprise-btn {
+    float: left;
+}
+
+.enterprise-row {
+    border: 1px solid gray;
+}
+
+.enterprise-text {
+    width: 70%;
+}
+
+.enterprise-btn {
+    width: 30%;
+}
+
+.enterprise-head {
+    border-bottom: 1px solid gray;
+    text-align: center;
 }
 
 /* Regole sezione partner */
