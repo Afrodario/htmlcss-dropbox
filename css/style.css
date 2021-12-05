@@ -380,6 +380,31 @@ ul {
     height: 400px;
 }
 
+.row-faq {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.row-faq .faq-text {
+    float: left;
+    width: 80%;
+}
+
+.row-faq .faq-arrow {
+    float: right;
+    width: 5%;
+}
+
+.row-faq p {
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.row-faq i {
+    padding: 20px 30px 20px 0;
+}
+
+
 /* Regole footer */
 footer {
     background-color: black;
