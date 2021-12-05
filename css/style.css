@@ -344,6 +344,35 @@ ul {
     background-color: yellow;
 }
 
+/* Regole sezione prova */
+.row-trial {
+    height: 400px;
+    background-color: #b4d0e7;
+}
+
+.trial-text, .trial-btn {
+    width: 50%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    float: left;
+    position: relative;
+}
+
+.trial-text h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: #61082b;
+}
+
+.trial-btn a {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
 /* Regole sezione faq */
 .faq {
     background-color: yellow;
