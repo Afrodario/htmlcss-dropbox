@@ -12,7 +12,6 @@
     max-width: 1180px;
     background-color: white;
     height: 100%;
-    border: 1px solid black;
 }
 
 .container-banner {
@@ -20,16 +19,17 @@
     margin: 0 auto;
     background-color: darkcyan;
     height: 100px;
-    border: 1px solid black;
 }
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 .button {
     border: 1px solid black;
     padding: 6px;
+    margin: 20px 0;
 }
 
 .btn-blue {
@@ -51,6 +51,7 @@ a {
 #start-btn {
     color: white;
     font-size: 12px;
+    display: inline;
 }
 
 /* Clearfix */
@@ -122,35 +123,43 @@ ul {
 }
 
 .jumbo-container {
-    margin: 0 10%;
-    border: 1px solid black;
+    width: 80%;
+    margin: auto;
 }
 
 .jumbo-head h1 {
-    font-size: 60px;
+    padding: 5% 0;
+    font-size: 70px;
     text-align: left;
 }
 
 .jumbo-description {
     width: 40%;
-    border: 1px solid black;
-    padding-left: 20px;
     float: left;
 }
 
 .jumbo-description p {
-    padding: 40px 20px;
+    padding-right: 32%;
+    font-size: 14px;
+}
+
+.jumbo-description i {
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 .jumbo-img {
     width: 60%;
-    border: 1px solid black;
     float: left;
 }
 
 #jumbo-img {
     width: 100%;
     object-fit: cover;
+}
+
+.jumbo-row {
+    height: 350px;
 }
 
 /* Regole sezione pagamenti */
