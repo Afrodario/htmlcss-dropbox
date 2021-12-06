@@ -122,6 +122,10 @@ header {
     font-weight: 600;
 }
 
+nav ul li {
+    height: 50px;
+}
+
 .nav-left ul {
     margin-left: 20px;
 }
@@ -131,6 +135,14 @@ header {
     color: black;
     font-size: 14px;
     font-weight: 600;
+}
+
+nav ul li a {
+    display: inline-block;
+}
+
+.nav-hover:hover {
+    border-bottom: 3px solid black;
 }
 
 /* Regole jumbotron */
