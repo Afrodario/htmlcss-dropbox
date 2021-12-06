@@ -486,15 +486,17 @@ ul {
 }
 
 /* Regole sezione faq */
-.faq {
-    background-color: yellow;
-    width: 100%;
-    height: 400px;
-}
 
 .row-faq {
     border-top: 1px solid gray;
+}
+
+.faq .container .row-faq:last-child {
     border-bottom: 1px solid gray;
+}
+
+.faq .container h2 {
+    margin-bottom: 3%;
 }
 
 .row-faq .faq-text {
@@ -512,10 +514,13 @@ ul {
     padding: 20px 0;
 }
 
-.row-faq i {
-    padding: 20px 30px 20px 0;
+.faq-arrow {
+    height: 60px;
 }
 
+.row-faq i {
+    line-height: 60px;
+}
 
 /* Regole footer */
 footer {
@@ -528,7 +533,7 @@ footer {
 }
 
 .foot-row {
-    margin-top: 3%;
+    margin: 5% 0;
 }
 
 .foot-col {
@@ -554,8 +559,12 @@ footer {
 .foot-border {
     width: 5%;
     border-bottom: 1px solid gray;
+    margin-bottom: 3%;
 }
 
 .foot-lang {
-    color: white;
+    color: gray;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 3%;
 }
