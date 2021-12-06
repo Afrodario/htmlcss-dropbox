@@ -17,7 +17,6 @@
 .container-banner {
     width: 80%;
     margin: 0 auto;
-    background-color: darkcyan;
     height: 100px;
 }
 
@@ -356,9 +355,22 @@ ul {
 
 /* Regole sezione banner */
 
+.container-banner {
+    padding: 0 5%;
+    margin-bottom: 6%;
+}
+
+.container-banner h2 {
+    font-size: 35px;
+}
+
+.container-banner a {
+    margin: 3% 0;
+    display: inline-block;
+}
+
 .col-ban {
     width: 30vw;
-    border: 1px solid black;
     float: left;
     /* height: 60vh; */
 }
@@ -369,6 +381,7 @@ ul {
     float: left;
     background-color: #f5f5f5;
     overflow-y: scroll;
+    padding: 3% 2%;
 }
 
 .box-logo {
@@ -394,39 +407,52 @@ ul {
 .ban-border {
     width: 5%;
     border-bottom: 1px solid gray;
+    margin: 6% 0;
+}
+
+#ban-quote {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+#ban-quote-author {
+    font-size: 15px;
+    font-weight: 600;
 }
 
 /* Regole colori di sfondo dei loghi */
 .box-design {
-    background-color: green;
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
 }
 
 .box-asu {
-    background-color: purple;
+    background-color: #61082b;
 }
 
 .box-uf {
-    background-color: lightskyblue;
+    background-color: #0093ce;
 }
 
 .box-topps {
-    background-color: red;
+    background-color: #ff1c1c;
 }
 
 .box-bycicle {
-    background-color: darkred;
+    background-color: #d5001f;
 }
 
 .box-hearst {
-    background-color: cyan;
+    background-color: #b4d0e7;
 }
 
 .box-lonely {
-    background-color: blue;
+    background-color: #0d2481;
 }
 
 .box-clear {
-    background-color: yellow;
+    background-color: #ffd830;
 }
 
 /* Regole sezione prova */
@@ -438,7 +464,6 @@ ul {
 .trial-text, .trial-btn {
     width: 50%;
     height: 100%;
-    border-bottom: 1px solid black;
     float: left;
     position: relative;
 }
@@ -456,6 +481,8 @@ ul {
     position: absolute;
     left: 10%;
     top: 40%;
+    padding: 1% 6%;
+    border: none;
 }
 
 /* Regole sezione faq */
