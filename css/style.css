@@ -21,15 +21,22 @@
     height: 100px;
 }
 
+section {
+    margin-bottom: 6%;
+}
+
 a {
     text-decoration: none;
-    display: inline-block;
+}
+
+a.pay-btn {
+    display: block;
 }
 
 .button {
-    border: 1px solid black;
     padding: 6px;
     margin: 20px 0;
+    display: inline-block;
 }
 
 .btn-blue {
@@ -44,8 +51,8 @@ a {
 }
 
 .pay-btn {
-    border: 1px solid black;
-    padding: 6px 25px;
+    text-align: center;
+    font-size: 13px;
 }
 
 #start-btn {
@@ -164,12 +171,6 @@ ul {
 
 /* Regole sezione pagamenti */
 
-/* .payment {
-    background-color: darkgoldenrod;
-    width: 100%;
-    height: 800px;
-} */
-
 .radio {
     display: inline-block;
     height: 15px;
@@ -182,11 +183,23 @@ ul {
     border: 3px solid #0061ff;
 }
 
+.payment-head h2 {
+    margin-top: 15%;
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+
+.pay-row {
+    margin-top: 4%;
+}
+
 /* Regole tabella pagamenti */
 .col {
     width: calc(100%/3 - 10px);
     border: 1px solid gray;
     float: left;
+    height: 110vh;
+    margin-bottom: 3%;
 }
 
 .col-cen {
@@ -201,10 +214,41 @@ ul {
 .col-pay-head {
     text-align: center;
     border-bottom: 1px solid gray;
+    padding: 10px;
 }
 
 .upper-col, .lower-col {
-    padding: 0 5%;
+    padding: 5%;
+}
+
+.upper-col *, .lower-col * {
+    padding: 2% 1%;
+}
+
+.upper-col h3 {
+    font-size: 20px;
+}
+
+.upper-col .price {
+    font-weight: bold;
+}
+
+.upper-col .time {
+    color: gray;
+    font-size: 13px;
+}
+
+.buy-now {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.pay-list {
+    font-size: 13px;
+}
+
+.pay-check i {
+    color: #0061ff;
 }
 
 /* Regole sezione enterprise */
@@ -214,6 +258,10 @@ ul {
 
 .enterprise-row {
     border: 1px solid gray;
+}
+
+.enterprise-row * {
+    padding: 1% 2%;
 }
 
 .enterprise-text {
@@ -227,6 +275,14 @@ ul {
 .enterprise-head {
     border-bottom: 1px solid gray;
     text-align: center;
+}
+
+.enterprise-text p {
+    font-size: 13px;
+}
+
+.enterprise-btn a {
+    padding: 5px;
 }
 
 /* Regole sezione partner */
