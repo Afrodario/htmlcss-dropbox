@@ -86,9 +86,16 @@ ul {
 }
 
 /* Regole header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
 .head-row {
     height: 50px;
     line-height: 50px;
+    background-color: white;
 }
 
 .nav-left {
