@@ -29,6 +29,7 @@ a {
     text-decoration: none;
 }
 
+/* Regole pulsanti */
 a.pay-btn {
     display: block;
 }
@@ -48,6 +49,8 @@ a.pay-btn {
     color: black;
     text-align: center;
     background-color: white;
+    border: 1px solid black;
+    font-size: 13px;
 }
 
 .pay-btn {
@@ -286,23 +289,25 @@ ul {
 }
 
 /* Regole sezione partner */
-
-/* .partner {
-    background-color: pink;
-    width: 100%;
-    height: 300px;
-} */
-
 #partner {
-    width: 80%;
-    display: block;
-    margin: auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 .partner-img, .partner-text {
     width: 50%;
-    border: 1px solid black;
     float: left;
+}
+
+.partner-text {
+    padding: 0px 9%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.partner-text h3 {
+    font-size: 22px;
+    margin-bottom: 5%;
 }
 
 /* Regole sezione business */
