@@ -311,15 +311,9 @@ ul {
 }
 
 /* Regole sezione business */
-/* .business {
-    background-color: purple;
-    width: 100%;
-    height: 500px;
-} */
 
 .col2 {
     width: calc(100%/3 - 10px);
-    border: 1px solid black;
     float: left;
 }
 
@@ -334,12 +328,33 @@ ul {
     margin: auto;
 }
 
+.business h2 {
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+
+.bus-card-text * {
+    padding: 1% 17%;
+}
+
+.bus-row {
+    margin-bottom: 5%;
+}
+
+.bus-row p {
+    font-size: 13px;
+}
+
+.bus-row h3 {
+    margin-bottom: 2%;
+}
+
+#drop-paper {
+    text-decoration: underline;
+    padding: 0;
+}
+
 /* Regole sezione banner */
-/* .banner {
-    background-color: seagreen;
-    width: 100%;
-    height: 700px;
-} */
 
 .col-ban {
     width: 30vw;
