@@ -1,0 +1,637 @@
+/* Regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1180px;
+    background-color: white;
+    height: 100%;
+}
+
+.container-banner {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+section {
+    margin-bottom: 6%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Regole pulsanti */
+a.pay-btn {
+    display: block;
+}
+
+.button {
+    padding: 6px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #0061ff;
+}
+
+.btn-clear {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.pay-btn {
+    text-align: center;
+    font-size: 13px;
+}
+
+#start-btn {
+    color: white;
+    font-size: 12px;
+    display: inline;
+}
+
+/* Clearfix */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Regole delle navbar */
+nav ul li {
+    display: inline-block;
+}
+
+/* Regole delle liste */
+ul {
+    list-style-type: none;
+}
+
+/* Debug */
+.debug {
+    border: 1px solid black;
+}
+
+/* Regole header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+.head-row {
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+/* Regole navbar dell'header */
+.nav-left ul {
+    margin-left: 20px;
+}
+
+.nav-left ul li a {
+    margin: 0 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav ul li {
+    height: 50px;
+}
+
+.nav-left ul {
+    margin-left: 20px;
+}
+
+.nav-right ul li a {
+    margin: 0 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav ul li a {
+    display: inline-block;
+}
+
+.nav-hover:hover {
+    border-bottom: 3px solid black;
+}
+
+/* Regole Dropdown bonus  */
+#dropdown {
+    display: none;
+    background-color: white;
+}
+
+#dropdown li a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.dropmenu {
+    position: relative;
+}
+
+.dropmenu:hover #dropdown{
+    display: block;
+    position: absolute;
+    line-height: initial;
+}
+
+#dropdown ul li:hover {
+    background-color: lightgray;
+}
+
+/* Regole jumbotron */
+.jumbotron {
+    background-color: #b4d0e7;
+}
+
+.jumbo-container {
+    width: 80%;
+    margin: auto;
+}
+
+.jumbo-head h1 {
+    padding: 5% 0;
+    font-size: 70px;
+    text-align: left;
+}
+
+.jumbo-description {
+    width: 40%;
+    float: left;
+}
+
+.jumbo-description p {
+    padding-right: 32%;
+    font-size: 14px;
+}
+
+.jumbo-description i {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.jumbo-img {
+    width: 60%;
+    float: left;
+}
+
+#jumbo-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.jumbo-row {
+    height: 350px;
+}
+
+/* Regole sezione pagamenti */
+
+.radio {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    }
+
+#radio-blue {
+    border: 3px solid #0061ff;
+}
+
+.payment-head h2 {
+    margin-top: 15%;
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+
+.pay-row {
+    margin-top: 4%;
+}
+
+/* Regole tabella pagamenti */
+.col {
+    width: calc(100%/3 - 10px);
+    border: 1px solid gray;
+    float: left;
+    height: 110vh;
+    margin-bottom: 3%;
+}
+
+.col-cen {
+    margin: 0 15px;
+}
+
+.col-break {
+    border-bottom: 1px solid gray;
+    max-width: 20%;
+}
+
+.col-pay-head {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.upper-col, .lower-col {
+    padding: 5%;
+}
+
+.upper-col *, .lower-col * {
+    padding: 2% 1%;
+}
+
+.upper-col h3 {
+    font-size: 20px;
+}
+
+.upper-col .price {
+    font-weight: bold;
+}
+
+.upper-col .time {
+    color: gray;
+    font-size: 13px;
+}
+
+.buy-now {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.pay-list {
+    font-size: 13px;
+}
+
+.pay-check i {
+    color: #0061ff;
+}
+
+/* Regole sezione enterprise */
+.enterprise-text, .enterprise-btn {
+    float: left;
+}
+
+.enterprise-row {
+    border: 1px solid gray;
+}
+
+.enterprise-row * {
+    padding: 1% 2%;
+}
+
+.enterprise-text {
+    width: 70%;
+}
+
+.enterprise-btn {
+    width: 30%;
+}
+
+.enterprise-head {
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.enterprise-text p {
+    font-size: 13px;
+}
+
+.enterprise-btn a {
+    padding: 5px;
+}
+
+/* Regole sezione partner */
+#partner {
+    width: 100%;
+    object-fit: cover;
+}
+
+.partner-img, .partner-text {
+    width: 50%;
+    float: left;
+}
+
+.partner-text {
+    padding: 0px 9%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.partner-text h3 {
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+/* Regole sezione business */
+
+.col2 {
+    width: calc(100%/3 - 10px);
+    float: left;
+}
+
+.col-cen {
+    margin: 0 15px;
+}
+
+.bus-card img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.business h2 {
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+
+.bus-card-text * {
+    padding: 1% 17%;
+}
+
+.bus-row {
+    margin-bottom: 5%;
+}
+
+.bus-row p {
+    font-size: 13px;
+}
+
+.bus-row h3 {
+    margin-bottom: 2%;
+}
+
+#drop-paper {
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Regole sezione banner */
+
+.container-banner {
+    padding: 0 5%;
+    margin-bottom: 6%;
+}
+
+.container-banner h2 {
+    font-size: 35px;
+}
+
+.container-banner a {
+    margin: 3% 0;
+    display: inline-block;
+}
+
+.col-ban {
+    width: 30vw;
+    float: left;
+    /* height: 60vh; */
+}
+
+.col-ban-cen {
+    width: calc(100% - 60vw);
+    height: 30vw;
+    float: left;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    padding: 3% 2%;
+}
+
+.box-logo {
+    width: 50%;
+    height: 15vw;
+    float: left;
+    position: relative;
+}
+
+.box-logo img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#designit {
+    width: 20%;
+}
+
+.ban-border {
+    width: 5%;
+    border-bottom: 1px solid gray;
+    margin: 6% 0;
+}
+
+#ban-quote {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+#ban-quote-author {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Regole colori di sfondo dei loghi */
+.box-ban img {
+    filter: invert(95%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(99%) contrast(96%);
+}
+
+.box-design {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.box-asu {
+    background-color: #61082b;
+}
+
+.box-uf {
+    background-color: #0093ce;
+}
+
+.box-topps {
+    background-color: #ff1c1c;
+}
+
+.box-bycicle {
+    background-color: #d5001f;
+}
+
+.box-hearst {
+    background-color: #b4d0e7;
+}
+
+.box-lonely {
+    background-color: #0d2481;
+}
+
+.box-clear {
+    background-color: #ffd830;
+}
+
+/* Regole sezione prova */
+.row-trial {
+    height: 400px;
+    background-color: #b4d0e7;
+}
+
+.trial-text, .trial-btn {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.trial-text h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: #61082b;
+}
+
+.trial-btn a {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    padding: 1% 6%;
+    border: none;
+}
+
+/* Regole sezione faq */
+
+.row-faq {
+    border-top: 1px solid gray;
+}
+
+.faq .container .row-faq:last-child {
+    border-bottom: 1px solid gray;
+}
+
+.faq .container h2 {
+    margin-bottom: 3%;
+}
+
+.row-faq .faq-text {
+    float: left;
+    width: 80%;
+}
+
+.row-faq .faq-arrow {
+    float: right;
+    width: 5%;
+}
+
+.row-faq p {
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.faq-arrow {
+    height: 60px;
+}
+
+.row-faq i {
+    line-height: 60px;
+}
+
+.faq-dropdown {
+    display: none
+}
+
+.faq-dropdown p {
+    color: gray;
+    font-size: 13px;
+    padding: 1% 2%;
+}
+
+.row-faq:hover + .faq-dropdown {
+    display: block;
+}
+
+/* Regole footer */
+footer {
+    background-color: black;
+    padding-top: 2%;
+}
+
+.foot-container {
+    width: 80%;
+    margin: auto;
+}
+
+.foot-row {
+    margin: 5% 0;
+}
+
+.foot-col {
+    float: left;
+    width: calc(100%/5);
+}
+
+.foot-col ul li a {
+    color: white;
+    font-size: 12px;
+}
+
+.foot-col ul li {
+    padding: 3px 0;
+}
+
+.foot-col ul li:first-child {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.foot-border {
+    width: 5%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 3%;
+}
+
+.foot-lang {
+    color: gray;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 3%;
+}
