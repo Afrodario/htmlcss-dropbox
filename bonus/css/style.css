@@ -187,6 +187,11 @@ nav ul li a {
     line-height: initial;
 }
 
+#dropdown ul li {
+    height: initial;
+    padding: 10px
+}
+
 #dropdown ul li:hover {
     background-color: lightgray;
 }
@@ -601,8 +606,20 @@ nav ul li a {
     padding: 1% 2%;
 }
 
+.fa-angle-up {
+    visibility: hidden;
+}
+
 .row-faq:hover + .faq-dropdown {
     display: block;
+}
+
+.row-faq:hover .fa-angle-down {
+    display: none;
+}
+
+.row-faq:hover .fa-angle-up {
+    visibility: visible;
 }
 
 /* Regole footer */
