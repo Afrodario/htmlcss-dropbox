@@ -63,6 +63,23 @@ a.pay-btn {
     display: inline;
 }
 
+/* Elementi di hover */
+.btn-clear:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-blue:hover {
+    background-color: #b4d0e7;
+}
+
+.foot-col ul li a:hover {
+    text-decoration: underline;
+}
+
+.jumbo-description i {
+    color: black;
+}
+
 /* Clearfix */
 .row::after {
     content: "";
