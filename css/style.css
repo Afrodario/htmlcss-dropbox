@@ -232,16 +232,18 @@ nav ul li a {
 }
 
 /* Regole tabella pagamenti */
+
+
 .col {
-    width: calc(100%/3 - 10px);
+    width: calc(100%/3 - 70px);
     border: 1px solid gray;
     float: left;
-    height: 110vh;
+    min-height: 800px;
     margin-bottom: 3%;
 }
 
 .col-cen {
-    margin: 0 15px;
+    margin: 0 105px;
 }
 
 .col-break {
@@ -352,7 +354,7 @@ nav ul li a {
     float: left;
 }
 
-.col-cen {
+.col-cen2 {
     margin: 0 15px;
 }
 
